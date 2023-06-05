@@ -1,0 +1,105 @@
+[20:33, 05.06.2023] Kazu: SQL Q:
+1) Table is an object that contains certain data in database. Fields are components of a table.
+2)  A JOIN clause is used to combine rows from two or more tables.
+3) SELECT * FROM Customers;
+4) char stores only fixed-length character string data types . varchar stores variable-length string.
+5) varchar is stored at 1 byte per character and nvarchar stores data at 2 bytes per character. 
+6) The PRIMARY KEY uniquely identifies each record in a table.
+7) SQL constraints are used to specify rules for data in a table.
+8) The UNIQUE constraint ensures that all values in a column are different.
+9) A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+10) GETDATE() function.
+11) Inner - returns all identical values from all tables.
+left - returns all values from left table.
+right - returns all values from right table.
+Full outer - returns all values from all tables.
+12) Entity is a part of table(entity employer in table employees)
+Relationships are the established associations between two or more tables. Usually used with primary and foreign keys connection
+13) Indexes are used to retrieve data from the database more quickly .
+14) Normalization is the process to eliminate data redundancy and enhance data integrity in the table. Normalization also helps to organize the data in the database. It is a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
+15) DROP command is used to remove the whole database or table indexes, data, and more. TRUNCATE command is used to remove all the rows from the table.
+16) Arithmetic, Bitwise, Comparison, Compound, Logical and String.
+17) null value indicates a lack of a value, which is not the same thing as a value of zero
+18) COUNT(COLUMN NAME)
+19) select name from employees where name like 'A%' ;
+20) select name from employees where name like '%A' ;
+21) SELECT MAX(SALARY) AS MAX_SALARY FROM Employee;
+22) SELECT * FROM `employee` ORDER BY `salary` DESC LIMIT 1 OFFSET 2;
+23) used to group together any rows of a column with the same value stored in them, based on a function specified in the statement
+24) Relationships are the established associations between two or more tables. Usually used with primary and foreign keys connection
+25) by typing NULL in data field
+26) BETWEEN operator is used to select a range of data between two values .
+IN operator allows you to specify multiple values in a WHERE clause.
+27) for processing or manipulating data. (COUNT MAX MIN AVG GETDATE)
+28) Where clause cant be used with aggregate functions(that collecting set of values and returns single value)
+29) to change the case of character strings. (UPPER LOWER INITCAP)
+30) DISTINCT eliminate duplicated records and returns only different values.
+
+
+[20:33, 05.06.2023] Kazu: HTML CSS Q:
+1)  All metadata, content which is not visible to users is placed in head element.(links, styles, title)
+2) All content of the website which is visible to uses is placed in body element.
+3) text-transform: capitalize;
+4) by writing css rule in style tag or by connecting to .css file with link tag or by writing styles directly to html tag.(internal CSS, external CSS, inline CSS)
+5) Inline: every element will take place on the same line and any height or width properties will have no effect.
+Block: every element will start on a new line and takes up the whole width.
+6) Responsive web design is about using html and css to automatically resize hide shrink enlarge elements in a website to make it look good in all devices
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+7) css selector are used to style html element
+8) id
+9) class
+10) diff id class
+11) child selectors
+12) by using border-radius property
+13) background-repeat: repeat-x;
+14) list-style-type: upper-roman / lower-alpha;
+15) same with attributes square and disc;
+16) The CSS box model is a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+17) separate each selector by comma
+18) <!--  -->  and /*  */
+19) p tag used for writing a paragraph.  span used to highlight a certain part of  a text.
+20) height of the content + padding+ border + margin.
+21) margin
+22)<a href="certain url">text<a/>
+23) background-image: url('img.png');
+24) links with this attribute will open in a new tab
+25) 308
+26) it allows you to apply styles depending on device type(height or width of viewport or device, orientation of device, resolution)
+27) it will override ALL previous styling rules for that specific property on that element!
+28) element's properties will generally triggered when the user hovers over an element with the cursor
+29)It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.
+30) it used to style the background of elements.
+
+PYTHON Q:
+1) backlashes
+2) 30
+3) NameError
+4) a
+5) 50cent
+6) c
+7) str
+8) d
+9) string
+10) a
+11) b
+12) d
+13) 1010
+14) b
+15) c
+16) b
+17) a
+18) b
+19) a
+20) d
+21) a
+22) d
+23) c
+24) b
+25) c
+26) d
+27) b
+28) b
+29) a
+30) b
+
+
